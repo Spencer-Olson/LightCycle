@@ -28,7 +28,11 @@ public void move() {
 
 }
 public void display() {
-  rect(x,y,length, width);   
+   stroke(bikeColor);
+     fill(bikeColor);
+  rect(x,y,length, width);  
+
+ 
 }
 
 
